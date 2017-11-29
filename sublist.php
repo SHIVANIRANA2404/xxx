@@ -17,7 +17,7 @@ $rs=mysql_query("select * from mst_subject");
 echo "<table align=center>";
 while($row=mysql_fetch_row($rs))
 {
-	echo "<tr><td align=center ><a href=showtest.php?subid=$row[0]><font size=4>$row[1]</font></a>";
+	echo "<tr><td align=left ><a href=showtest.php?subid=$row[0]><font size=4>$row[1]</font></a>";
 }
 echo "</table>";
 ?>
